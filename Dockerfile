@@ -1,6 +1,5 @@
 FROM pasarguard/node:latest
 
-# openssl برای ساخت خودکار گواهی SSL لازمه (ایمیج اصلی نود این ابزار رو نداره)
 RUN apk add --no-cache openssl
 
 COPY entrypoint.sh /entrypoint.sh
